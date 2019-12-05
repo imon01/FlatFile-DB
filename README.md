@@ -1,5 +1,5 @@
 # REQUIREMENT
-Simple Flat File DB implementation. Implementation provides no relation between storage objects; `8 byte`keys are only supported, or `uint64_t`. The application runs as a service.
+Simple Flat File DB commandline application. Implementation provides no relation between storage objects; `8 byte`keys are only supported, or `uint64_t`. The application runs as a service.
 
 ![Screenshot](Architecture.png)
 
