@@ -44,12 +44,12 @@ typedef struct dbnode{
 
 typedef struct function_map{
     const char * fname;
-    int (*func) (void *, uint64_t);
+    int (*func) (db_t*, uint64_t);
 } function_map;
 
 typedef struct function_map_debug{
     const char * fname;
-    int (*func) ();
+    void (*func) ();
 } function_map_debug;
 
 
