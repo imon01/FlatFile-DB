@@ -3,6 +3,9 @@ A simple file-based database with a command-line interface for the Linux
 platform. The database will consist of unique IDs (8 byte unsigned integers). The
 command-line interface will allow three commands ‘insert’, ‘find’, ‘delete’.
 
+![Screenshot](Architecture.png)
+
+
 Usage:
 
 `dbcli <db filename> insert <id>`
